@@ -24,16 +24,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#welcome-section">Welcome</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -43,12 +40,12 @@
             </div>
         </div>
     </nav>
-    <!-- main banner -->
-    <section class="bgimage" id="home">
+    <!-- Welcome section -->
+    <section class="bgimage" id="welcome-section">
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">My name is Duy</h2>
+                <h1 class="hero_title">My name is Duy</h1>
                 <p class="hero_desc">I am a fresher from HCMUS in Ho Chi Minh city</p>
             </div>
             </div>
@@ -91,30 +88,28 @@
             </div>
     </section>
 
-    <!-- services section-->
-    <section id="services">
+    <!-- Project section-->
+    <section id="projects">
         <div class="container">
-            <h1 class="text-center">Services</h1>
+            <h1 class="text-center">My Projects</h1>
+            <!-- Row 1 -->
             <div class="row">
-                <div class="col-lg-4 mt-4">
+                <div class="col-lg-4 mt-4 project-tile" style="cursor:pointer;" onClick="window.open('https://github.com/NBDuy201/CSDL_NC_DO_AN_2', '_blank');">
                     <div class="card servicesText">
                         <div class="card-body">
-                            <i class="fas servicesIcon fa-clock"></i>
-                            <h4 class="card-title mt-3">Website Development</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </p>
+                            <i class="fas servicesIcon fa-store"></i>
+                            <h4 class="card-title mt-3">Store management</h4>
+                            <p class="card-text mt-3">This project is a website that sell gaming gear which store data in MySQL.</p>
                         </div>
                     </div>  
                 </div>
-                <div class="col-lg-4 mt-4">
+                
+                <div class="col-lg-4 mt-4 project-tile" style="cursor:pointer;" onClick="window.open('https://github.com/ngoctu280801/SE_Group08_19CLC3_HCMUS', '_blank');">
                     <div class="card servicesText">
                         <div class="card-body">
-                            <i class='fas servicesIcon fa-layer-group'></i>
-                            <h4 class="card-title mt-3">Website Design</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </p>
+                            <i class='fas servicesIcon fa-shopping-cart'></i>
+                            <h4 class="card-title mt-3">Gaming gear shop</h4>
+                            <p class="card-text mt-3">This project is an app written using .Net framwork (Windows Forms) and store data using MSSQL.</p>
                         </div>
                     </div>  
                 </div>
@@ -122,7 +117,7 @@
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
-                            <i class='far servicesIcon fa-check-circle'></i>
+                            <i class='far servicesIcon fa-question-circle'></i>
                             <h4 class="card-title mt-3">Website Deployment</h4>
                             <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
                                 Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -132,11 +127,12 @@
                 </div>
             </div>
 
+            <!-- Row 2 -->
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
-                            <i class='fas servicesIcon fa-search'></i>
+                            <i class='far servicesIcon fa-question-circle'></i>
                             <h4 class="card-title mt-3">SEO</h4>
                             <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
                                 Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -148,7 +144,7 @@
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
-                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <i class='far servicesIcon fa-question-circle'></i>
                             <h4 class="card-title mt-3">DevOps</h4>
                             <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
                                 Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -160,7 +156,7 @@
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
-                            <i class='fas servicesIcon fa-wrench'></i>
+                            <i class='far servicesIcon fa-question-circle'></i>
                             <h4 class="card-title mt-3">QA</h4>
                             <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
                                 Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -170,93 +166,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- portfolio section-->
-    <section id="portfolio">
-        <div class="container mt-3">
-            <h1 class="text-center">Portfolio</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">YouTube Clone</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Quiz App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Product Landing Page</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Messaging Service</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Twitter Clone</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Blog App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
     </section>
 
     <!-- contact section-->
