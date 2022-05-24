@@ -36,7 +36,9 @@
 }
 /* about section image css */
 .imageAboutPage {
-  width: 100%;
+  border-radius: 50%;
+  width: 60%;
+  height: 70%;
 }
 
 /* services section css */
@@ -109,4 +111,10 @@
   html {
     font-size: 70%;
   }
+}
+
+#div-aboutImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
