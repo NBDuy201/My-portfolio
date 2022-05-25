@@ -27,18 +27,19 @@
 }
 
 /* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
+#about, #projects, #portfolio, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
-} */
+}
+
 #contact {
   padding-bottom: 4rem;
 }
+
 /* about section image css */
 .imageAboutPage {
-  border-radius: 20%;
+  border-radius: 10%;
   width: 60%;
-  height: 70%;
 }
 
 /* services section css */
@@ -71,10 +72,9 @@
   cursor: pointer;
 }
 .fa-facebook:hover,
-.fa-instagram:hover,
 .fa-twitter:hover,
 .fa-linkedin:hover,
-.fa-twitch:hover {
+.fa-github {
   color: grey;
 }
 .fab {
