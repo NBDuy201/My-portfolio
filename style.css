@@ -36,16 +36,12 @@
 }
 /* about section image css */
 .imageAboutPage {
-  border-radius: 50%;
+  border-radius: 20%;
   width: 60%;
   height: 70%;
 }
 
 /* services section css */
-.servicesText.card {
-  height: 280px;
-  cursor: pointer;
-}
 .servicesIcon {
   font-size: 36px;
   text-align: center;
@@ -87,12 +83,14 @@
 /* footer styling */
 #footer {
   display: flex;
-  background-color: #808080;
+  align-items: center;
   justify-content: space-around;
+  background-color: black;
+  color: white;
 }
 
 #footer-credit {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
